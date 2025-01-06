@@ -1,0 +1,44 @@
+# Microsoft Teams Enhanced Rules
+# These rules ensure proper Teams functionality including calls, meetings, and file sharing
+
+# Teams Core Services
+DOMAIN-SUFFIX,teams.microsoft.com,DIRECT
+DOMAIN-SUFFIX,teams.microsoft.us,DIRECT
+DOMAIN-SUFFIX,teams.skype.com,DIRECT
+DOMAIN-SUFFIX,sfbassets.com,DIRECT
+DOMAIN-SUFFIX,broadcast.skype.com,DIRECT
+
+# Teams Media Services (calls and meetings)
+DOMAIN-SUFFIX,keydelivery.mediaservices.windows.net,DIRECT
+DOMAIN-SUFFIX,streaming.mediaservices.windows.net,DIRECT
+DOMAIN-SUFFIX,stun.l.google.com,DIRECT
+DOMAIN-SUFFIX,cloudapp.net,DIRECT
+
+# Teams Authentication
+DOMAIN-SUFFIX,login.microsoftonline.com,DIRECT
+DOMAIN-SUFFIX,auth.gfx.ms,DIRECT
+DOMAIN-SUFFIX,logincdn.msauth.net,DIRECT
+
+# Teams File Sharing and Storage
+DOMAIN-SUFFIX,sharepoint.com,DIRECT
+DOMAIN-SUFFIX,svc.ms,DIRECT
+DOMAIN-SUFFIX,storage.live.com,DIRECT
+DOMAIN-SUFFIX,onedrive.com,DIRECT
+
+# Teams Telemetry and Updates
+DOMAIN-SUFFIX,events.data.microsoft.com,DIRECT
+DOMAIN-SUFFIX,browser.pipe.aria.microsoft.com,DIRECT
+DOMAIN-SUFFIX,mobile.pipe.aria.microsoft.com,DIRECT
+
+# Office 365 Related Services
+DOMAIN-SUFFIX,office.com,DIRECT
+DOMAIN-SUFFIX,office.net,DIRECT
+DOMAIN-SUFFIX,outlook.office.com,DIRECT
+DOMAIN-SUFFIX,outlook.office365.com,DIRECT
+DOMAIN-SUFFIX,attachments.office.net,DIRECT
+
+# Additional Microsoft Services
+DOMAIN-SUFFIX,microsoft.com,DIRECT
+DOMAIN-SUFFIX,msedge.net,DIRECT
+DOMAIN-SUFFIX,live.com,DIRECT
+DOMAIN-SUFFIX,windows.net,DIRECT
