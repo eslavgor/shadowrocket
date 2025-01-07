@@ -2,43 +2,43 @@
 # These rules ensure proper Teams functionality including calls, meetings, and file sharing
 
 # Teams Core Services
-DOMAIN-SUFFIX,teams.microsoft.com,DIRECT
-DOMAIN-SUFFIX,teams.microsoft.us,DIRECT
-DOMAIN-SUFFIX,teams.skype.com,DIRECT
-DOMAIN-SUFFIX,sfbassets.com,DIRECT
-DOMAIN-SUFFIX,broadcast.skype.com,DIRECT
+DOMAIN-SUFFIX,teams.microsoft.com
+DOMAIN-SUFFIX,teams.microsoft.us
+DOMAIN-SUFFIX,teams.skype.com
+DOMAIN-SUFFIX,sfbassets.com
+DOMAIN-SUFFIX,broadcast.skype.com
 
 # Teams Media Services (calls and meetings)
-DOMAIN-SUFFIX,keydelivery.mediaservices.windows.net,DIRECT
-DOMAIN-SUFFIX,streaming.mediaservices.windows.net,DIRECT
-DOMAIN-SUFFIX,stun.l.google.com,DIRECT
-DOMAIN-SUFFIX,cloudapp.net,DIRECT
+DOMAIN-SUFFIX,keydelivery.mediaservices.windows.net
+DOMAIN-SUFFIX,streaming.mediaservices.windows.net
+DOMAIN-SUFFIX,stun.l.google.com
+DOMAIN-SUFFIX,cloudapp.net
 
 # Teams Authentication
-DOMAIN-SUFFIX,login.microsoftonline.com,DIRECT
-DOMAIN-SUFFIX,auth.gfx.ms,DIRECT
-DOMAIN-SUFFIX,logincdn.msauth.net,DIRECT
+DOMAIN-SUFFIX,login.microsoftonline.com
+DOMAIN-SUFFIX,auth.gfx.ms
+DOMAIN-SUFFIX,logincdn.msauth.net
 
 # Teams File Sharing and Storage
-DOMAIN-SUFFIX,sharepoint.com,DIRECT
-DOMAIN-SUFFIX,svc.ms,DIRECT
-DOMAIN-SUFFIX,storage.live.com,DIRECT
-DOMAIN-SUFFIX,onedrive.com,DIRECT
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,svc.ms
+DOMAIN-SUFFIX,storage.live.com
+DOMAIN-SUFFIX,onedrive.com
 
 # Teams Telemetry and Updates
-DOMAIN-SUFFIX,events.data.microsoft.com,DIRECT
-DOMAIN-SUFFIX,browser.pipe.aria.microsoft.com,DIRECT
-DOMAIN-SUFFIX,mobile.pipe.aria.microsoft.com,DIRECT
+DOMAIN-SUFFIX,events.data.microsoft.com
+DOMAIN-SUFFIX,browser.pipe.aria.microsoft.com
+DOMAIN-SUFFIX,mobile.pipe.aria.microsoft.com
 
 # Office 365 Related Services
-DOMAIN-SUFFIX,office.com,DIRECT
-DOMAIN-SUFFIX,office.net,DIRECT
-DOMAIN-SUFFIX,outlook.office.com,DIRECT
-DOMAIN-SUFFIX,outlook.office365.com,DIRECT
-DOMAIN-SUFFIX,attachments.office.net,DIRECT
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,outlook.office.com
+DOMAIN-SUFFIX,outlook.office365.com
+DOMAIN-SUFFIX,attachments.office.net
 
 # Additional Microsoft Services
-DOMAIN-SUFFIX,microsoft.com,DIRECT
-DOMAIN-SUFFIX,msedge.net,DIRECT
-DOMAIN-SUFFIX,live.com,DIRECT
-DOMAIN-SUFFIX,windows.net,DIRECT
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,msedge.net
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,windows.net
