@@ -14,11 +14,6 @@ DOMAIN-SUFFIX,streaming.mediaservices.windows.net
 DOMAIN-SUFFIX,stun.l.google.com
 DOMAIN-SUFFIX,cloudapp.net
 
-# Teams Authentication
-DOMAIN-SUFFIX,login.microsoftonline.com
-DOMAIN-SUFFIX,auth.gfx.ms
-DOMAIN-SUFFIX,logincdn.msauth.net
-
 # Teams File Sharing and Storage
 DOMAIN-SUFFIX,sharepoint.com
 DOMAIN-SUFFIX,svc.ms
