@@ -25,15 +25,3 @@ DOMAIN-SUFFIX,events.data.microsoft.com
 DOMAIN-SUFFIX,browser.pipe.aria.microsoft.com
 DOMAIN-SUFFIX,mobile.pipe.aria.microsoft.com
 
-# Office 365 Related Services
-DOMAIN-SUFFIX,office.com
-DOMAIN-SUFFIX,office.net
-DOMAIN-SUFFIX,outlook.office.com
-DOMAIN-SUFFIX,outlook.office365.com
-DOMAIN-SUFFIX,attachments.office.net
-
-# Additional Microsoft Services
-DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,msedge.net
-DOMAIN-SUFFIX,live.com
-DOMAIN-SUFFIX,windows.net
