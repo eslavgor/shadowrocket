@@ -4,5 +4,5 @@
 # Teams Core Services
 DOMAIN-SUFFIX,teams.microsoft.com
 DOMAIN-SUFFIX,teams.microsoft.us
-IP-CIDR, 52.112.0.0/16,no-resolve
-IP-CIDR, 52.114.0.0/16,no-resolve
+IP-CIDR,52.112.0.0/16,no-resolve
+IP-CIDR,52.114.0.0/16,no-resolve
