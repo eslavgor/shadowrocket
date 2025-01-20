@@ -4,24 +4,3 @@
 # Teams Core Services
 DOMAIN-SUFFIX,teams.microsoft.com
 DOMAIN-SUFFIX,teams.microsoft.us
-DOMAIN-SUFFIX,teams.skype.com
-DOMAIN-SUFFIX,sfbassets.com
-DOMAIN-SUFFIX,broadcast.skype.com
-
-# Teams Media Services (calls and meetings)
-DOMAIN-SUFFIX,keydelivery.mediaservices.windows.net
-DOMAIN-SUFFIX,streaming.mediaservices.windows.net
-DOMAIN-SUFFIX,stun.l.google.com
-DOMAIN-SUFFIX,cloudapp.net
-
-# Teams File Sharing and Storage
-DOMAIN-SUFFIX,sharepoint.com
-DOMAIN-SUFFIX,svc.ms
-DOMAIN-SUFFIX,storage.live.com
-DOMAIN-SUFFIX,onedrive.com
-
-# Teams Telemetry and Updates
-DOMAIN-SUFFIX,events.data.microsoft.com
-DOMAIN-SUFFIX,browser.pipe.aria.microsoft.com
-DOMAIN-SUFFIX,mobile.pipe.aria.microsoft.com
-
