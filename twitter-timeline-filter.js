@@ -1,20 +1,19 @@
-// twitter-timeline-filter.js
+// Safe filter that keeps entry structure but neuters promotedMetadata
 let body = $response.body;
 if (!body) $done({});
 
 try {
   let obj = JSON.parse(body);
 
-  // Twitter timeline structure often uses "instructions" with "entries"
   if (obj.timeline?.instructions) {
     obj.timeline.instructions = obj.timeline.instructions.map(instruction => {
       if (instruction.entries) {
-        instruction.entries = instruction.entries.filter(entry => {
-          const entryId = entry.entryId || '';
+        instruction.entries = instruction.entries.map(entry => {
           const content = entry.content?.itemContent;
-          const isPromoted = /promoted/.test(entryId);
-          const hasPromotedMetadata = !!content?.promotedMetadata;
-          return !(isPromoted || hasPromotedMetadata);
+          if (content?.promotedMetadata) {
+            delete content.promotedMetadata;
+          }
+          return entry;
         });
       }
       return instruction;
@@ -22,8 +21,7 @@ try {
   }
 
   $done({ body: JSON.stringify(obj) });
-
-} catch (e) {
-  console.log("[TwitterFilter] Failed:", e);
+} catch (err) {
+  console.log('[TwitterFilter] Failed:', err);
   $done({});
 }
